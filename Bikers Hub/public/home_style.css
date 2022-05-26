@@ -1,0 +1,156 @@
+body
+{
+    background-color: black;
+}
+
+#default_background 
+{
+    position: absolute;
+    z-index: 3; /*3*/
+    opacity: 1;
+    filter: alpha(opacity=40);
+    height: 100%;
+    right: 0vh;
+}
+
+#lamp_on
+{
+    position: absolute;
+    z-index: -2; /*0*/
+    opacity: 1;
+    filter: alpha(opacity=40);
+    height: 100%;
+    right: 0vh;
+}
+
+#topBar
+{
+    z-index: 1;
+    position: absolute;
+    max-height: 70px;
+    right: 0vh;
+}
+
+#splitterDiv
+{
+    width: 210vh; 
+    height: 90vh; 
+    background-color: transparent;
+}
+
+#homeButton img
+{
+    position: absolute;
+    z-index: 2;
+    right: 300px;
+    top: 63px;
+    max-width: 80px;
+}
+
+#profileButton img
+{
+    position: absolute;
+    z-index: 2;
+    right: 375px;
+    top: 63px;
+    max-width: 70px;   
+}
+
+#addRouteButton img
+{
+    position: absolute;
+    z-index: 2;
+    right: 180px;
+    top: 63px;
+    max-width: 70px;
+}
+
+#announcementBar
+{
+    position: absolute;
+    z-index: 1;
+    right: 20%;
+    top: 30vh;
+    max-width: 100vh;   
+}
+
+#announcementBarInside
+{
+    position: absolute;
+    z-index: 1;
+    right: 25%;
+    top: 35vh;
+    max-width: 100vh;   
+}
+
+#announcement1
+{
+    position: absolute;
+    color: antiquewhite;
+    z-index: 2;
+    right: 40%;
+    top: 36vh;
+}
+
+#announcement2
+{
+    position: absolute;
+    color: antiquewhite;
+    z-index: 2;
+    right: 40%;
+    top: 42vh;
+}
+
+#announcement3
+{
+    position: absolute;
+    color: antiquewhite;
+    z-index: 2;
+    right: 40%;
+    top: 48vh;
+}
+
+#current_road_text
+{
+    position: absolute;
+    color: antiquewhite;
+    z-index: 2;
+    right: 40%;
+    top: 68.8vh;
+}
+
+#current_road
+{
+    position: absolute;
+    color: antiquewhite;
+    z-index: 2;
+    right: 25%;
+    top: 68.8vh;
+}
+
+#namingBackGround
+{
+    position: absolute;
+    z-index: 1;
+    right: 20%;
+    top: 30vh;
+    max-width: 15vh;   
+}
+
+#popular_roads
+{
+    position: absolute;
+    color: antiquewhite;
+    z-index: 2;
+    right: 22%;
+    top: 30vh;
+}
+
+#currentRoad
+{
+    position: absolute;
+    z-index: 1;
+    right: 22%;
+    top: 65vh;
+    max-width: 115vh;   
+}

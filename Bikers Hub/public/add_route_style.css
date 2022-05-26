@@ -1,0 +1,65 @@
+body
+{
+    background-color: black;
+}
+
+#default_background 
+{
+    position: absolute;
+    z-index: 3; /*3*/
+    opacity: 1;
+    filter: alpha(opacity=40);
+    height: 100%;
+    left: 0vh;
+}
+
+#lamp_on
+{
+    position: absolute;
+    z-index: -2; /*0*/
+    opacity: 1;
+    filter: alpha(opacity=40);
+    height: 100%;
+    left: 0vh;
+}
+
+#splitterDiv
+{
+    width: 210vh; 
+    height: 90vh; 
+    background-color: transparent;
+    right: 0px;
+}
+
+.inputs
+{
+    position: absolute;
+    z-index: 2;
+    border-radius : 30px;
+    box-shadow: 5px 5px 10px;
+    height: 4%;
+    width: 10%;
+    right: 24%;
+}
+
+#input_sehir        {top: 25%;}
+#input_saat_tarih   {top: 35%;}
+#input_adres        {top: 45%;}
+
+#route_banner
+{
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    
+}
+
+#create_route_button
+{
+    z-index: 2;
+    position: absolute;
+    top: 65%;
+    right: 25%;
+
+}

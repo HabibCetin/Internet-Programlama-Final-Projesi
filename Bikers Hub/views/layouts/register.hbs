@@ -1,0 +1,49 @@
+{{!-- <!DOCTYPE html> --}}
+
+<html>
+    
+    <script src="register_page_scripts.js"></script>
+
+
+    <head>
+        <meta charset="UTF-8">
+        {{!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> --}}
+        {{!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> --}}
+        <title>Bikers Hub - LOG IN</title>
+        <link rel="stylesheet" href="register_page_style.css">
+    </head>
+
+
+    <body>
+
+        <form method="POST" action="/add_user">
+            <div class="container">
+                <h1>Kayıt Ol</h1>
+                <p>Kayıt olmak için lütfen bu formu doldurun!</p>
+                <hr>
+
+                <label for="username"><b>Kullanıcı adı</b></label>
+                <input type="text" name="username" placeholder="Kullanıcı adınızı seçiniz . ." id="email" required="true">
+
+                <label for="email"><b>E-posta</b></label>
+                <input type="text" placeholder="E-postanızı girin . ." name="email" id="email" required="true">
+
+                <label for="password"><b>Şifre</b></label>
+                <input type="password" placeholder="Şifrenizi girin . ." name="password" id="psw" required="true">
+
+                {{!-- <label for="psw-repeat"><b>Tekrar Şifre</b></label> --}}
+                {{!-- <input type="password" placeholder="Şifrenizi tekrar girin . . " name="psw-repeat" id="psw-repeat" required> --}}
+                <hr>
+                <p>Hesap oluşturarak <a href="#">sözleşmeyi</a> kabul etmiş olursunuz.</p>
+
+                <button type="submit" class="registerbtn">Kayıt Ol</button>
+            </div>
+            
+            <div class="container signin">
+                <p>Zaten hesabınız var mı? <a href="/">O zaman giriş yapın bari</a>.</p>
+            </div>
+        </form>
+
+    </body>
+
+</html>

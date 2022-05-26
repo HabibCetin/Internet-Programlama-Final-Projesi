@@ -1,0 +1,29 @@
+{
+  "name": "bikers-hub",
+  "version": "1.0.0",
+  "description": "bikers hub page",
+  "main": "index.js",
+  "scripts": {
+    "test": "deneme hata olabilir diggad",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "bilmiom"
+  ],
+  "author": "Locked Fire",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
+    "connect-mongodb": "^1.1.5",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "joi": "^17.6.0",
+    "joi-objectid": "^4.0.2",
+    "mongodb": "^4.6.0",
+    "mongodb-shell": "^1.0.1",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {}
+}

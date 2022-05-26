@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+    <script src="script.js"></script>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bikers Hub - LOG IN</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+      <div id = "main_event"  >
+          <map name="login_map" id = "login_map">
+              <area shape="poly" coords="1254,332,1237,456,1156,672,1204,817,1386,901,1567,810,1599,642,1504,457,1500,327"  alt="login" onmouseenter="showImage('lamp_on')" onmousedown="document.getElementById('id01').style.display='block'" onmouseleave="hideImage('lamp_on')" >
+          </map>
+
+          <div id = "default_background">
+              <img src="lamp off.png" alt="login default background" usemap="#login_map" id="lamp">
+          </div>
+          
+          <div id = "lamp_on">
+              <img src="lamp on.png" alt="lamp on"  usemap="#login_map">
+          </div>
+
+          <p>LOG IN</p>
+
+      </div>
+
+      <div id="id01" class="modal">
+    
+          <form class="modal-content animate" action="/login" method="post">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <img src="WebUI/login foto thingy.png" alt="Avatar" class="avatar">
+            </div>
+        
+            <div class="container">
+              <label for="uname"><b>Kullanıcı adı</b></label>
+              <input type="text" placeholder="Kullanıcı adı girin . . " name="username" required>
+        
+              <label for="passport"><b>Şifre</b></label>
+              <input type="password" placeholder="Şifre girin . . " name="password" required>
+                
+              <button type="submit">Giriş Yap!</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Beni hatırla
+              </label>
+
+              <button onclick="location.href='register'" type="button"> Kayıt OL!</button>
+            </div>
+        
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Kapat</button>
+            </div>
+
+          </form>
+
+        </div>
+        
+    </body>
+
+</html> 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+    <script src="home_script.js"></script>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bikers Hub - HOME</title>
+        <link rel="stylesheet" href="home_style.css">
+    </head>
+
+    <body onload="hideImage('default_background')">>
+
+            <img src="headlight off.png" alt="home default background" id="default_background">
+        
+            <img src="headlight on.png" alt="lamp on"  id = "lamp_on">
+
+            <div id="splitterDiv">
+                    <h3>DENEME</h3>
+                    <h3>{{userList}}</h3>
+                    <img src="WebUI/TopBar.png" alt="top bar" id ="topBar">
+
+                    <a href="home" target="_blank" id ="homeButton">
+                        <img src="WebUI/HomeButton.png"  alt="home button" >
+                    </a>
+
+                    <a href="/"  id ="profileButton">
+                        <img src="WebUI/ProfileButton.png" alt="profile button" id="profileButton">
+                    </a>
+
+                    <a href="add-route"  id ="addRouteButton">
+                        <img src="WebUI/rota ekleme butonu.png" alt="add route button" id="addRouteButton">
+                    </a>
+
+                    <img src="WebUI/AnnouncementBar.png" alt="announcement bar" id="announcementBar">
+                    <img src="WebUI/AnnouncementBarInside.png" alt="announcement bar inside" id="announcementBarInside">
+                    
+                    <p id="announcement1">İstanbul | 24/05/2022 | Saat : 20.00 | Yer : Vazo önü.</p>
+                    <p id="announcement2">Kütahya | 26/06/2023 | Saat : 16.00 | Yer : Vazo önü</p>
+                    <p id="announcement3">Bursa | 31/07/2023 | Saat : 17.00 | Yer : Vazo önü</p>
+                    <p id="current_road_text"> Kütahya | 10/08/2022 | Saat : 13.00 | Yer : Vazo önü</p>
+                    <p id="popular_roads"> En iyi 3 Rota </p>
+                    <p id="current_road"> Senin Rotan </p>
+
+                    <img src="WebUI/NamingBackGround.png" alt="naming back ground" id="namingBackGround">
+                    <img src="WebUI/CurrentRoadBar.png" alt="current road" id="currentRoad">
+            </div>
+
+    </body>
+
+</html> 
